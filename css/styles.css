@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Helvetica, Arial;
+}
+body{
+  margin: 0;
+}
+header{
+  text-align: center;
+  background-color: #06D6AA;
+  overflow: hidden;
+  padding: 0 20px;
+}
+h1{
+  margin: 16px;
+  color: #f1f1f1;
+  font-size: 2.5em;
+  float: left;
+}
+.navbar{
+  display: inline-block;
+  margin: 30px;
+  line-height: 20px;
+  float: right;
+  font-size: 20px;
+  margin-right: 0;
+}
+.nav-item{
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+.home{
+  float: left;
+  width: 60%;
+}
+h2{
+  font-size: 50px;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+}
+.container{
+  overflow: hidden;
+  background-color: #26457D;
+  color: #f1f1f1;
+  margin: auto;
+}
+.headbar{
+  max-width: 1000px;
+  margin: auto;
+}
+h3{
+  font-size: 25px;
+  font-weight: 800;
+}
+.cats{
+  background-color: #ffd367;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.products{
+  background-color: #ece0e0;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.wrap{
+  overflow: hidden;
+}
+.picture{
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.picture > img{
+  border: 3px solid black;
+}
+.about{
+  background-color: #1a4062;
+  color: #f1f1f1;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.cats, .products, .about{
+  padding: 30px 20px;
+}
+.team{
+  overflow: hidden;
+}
+.team-fun, .team-value, .team-meow{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  color: #e6315c;
+  text-transform: uppercase;
+}
+footer{
+background-color:  #06D6AA;
+text-align: right;
+line-height: 1.5;
+font-size: 18px;
+padding: 10px 20px;
+height: 50px;
+}
